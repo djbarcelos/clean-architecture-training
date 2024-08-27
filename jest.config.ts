@@ -8,7 +8,9 @@ const config: Config = {
   coverageProvider: 'v8',
   transform: {
     '.+\\.ts$': 'ts-jest'
-  }
+  },
+  preset: 'ts-jest',
+  testEnvironment: 'node'
 }
 
 export default config
