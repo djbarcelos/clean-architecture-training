@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "@types/jest": "^29.5.12",
+    "@types/mocha": "^10.0.7",
     "@types/node": "^22.5.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
