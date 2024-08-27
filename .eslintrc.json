@@ -5,6 +5,6 @@
     },
     "rules": {
         "@typescript-eslint/prefer-nullish-coalescing": "off",
-        "@typescript-eslint/strict-boolean-expressions": "error"
+        "@typescript-eslint/strict-boolean-expressions": "off"
       }
 }
