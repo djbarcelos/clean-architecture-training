@@ -7,7 +7,7 @@ export const badRequest = (error: Error): HttpResponse => ({
   body: error
 })
 
-export const success = (account: AccountModel): HttpResponse => ({
+export const ok = (account: AccountModel): HttpResponse => ({
   statusCode: 200,
   body: account
 })
